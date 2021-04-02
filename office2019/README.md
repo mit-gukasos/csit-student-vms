@@ -17,7 +17,7 @@ This script is designed to enable automated deployment of virtual machine applia
 2) Open Terminal app. On Mac: Press Command+Space, type in "Terminal" and press Enter.
 
 3) Copy the following line, Paste(Command+V) it into the Terminal window and hit Enter:
-> bash <(curl -s https://github.com/mit-gukasos/csit-student-vms/office2019/import-vm.sh)
+> bash <(curl -s https://raw.githubusercontent.com/mit-gukasos/csit-student-vms/main/office2019/import-vm.sh)
 
 
 At this point the download should start. The process can take some time, depending on your Internet connection and hardware. Make sure to keep your device from going to sleep, as this can interrupt the download process and cause errors during import. 
