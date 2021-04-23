@@ -13,7 +13,7 @@ clear
 
 ### USER EDITABLE VARIABLES ##########################
 guest_name="LAMC-OFFICE2019-VM"                             # Name of VM to be shown in VirtualBox
-ova_remote_url="ftp://lamc-student-vms.westus2.cloudapp.azure.com/$guest_name.ova"         # HTTP or FTP url to .ova file
+ova_remote_url="https://academic.lamission.edu/csw10/$guest_name.ova"         # HTTP or FTP url to .ova file
 ova_local="$(echo ~/Downloads/)$guest_name.ova"             # Download path for .ova file
 #### END OF USER EDITABLE VARIABLES ##################
 
